@@ -38,7 +38,7 @@ function App() {
         <div className="social-links delay-1 fade-in-up">
           <a href="mailto:vargaspnicolas5@gmail.com" className="btn"><Mail size={18}/> Contact Me</a>
           <a href="https://github.com/A-VargasP" target="_blank" rel="noopener noreferrer" className="btn btn-outline"><ExternalLink size={18}/> GitHub</a>
-          <a href="#" className="btn btn-outline"><ExternalLink size={18}/> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/adolfo-vargas-perez-9016a8268/" target="_blank" rel="noopener noreferrer" className="btn btn-outline"><ExternalLink size={18}/> LinkedIn</a>
         </div>
       </header>
 
