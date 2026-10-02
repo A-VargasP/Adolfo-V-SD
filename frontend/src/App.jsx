@@ -109,10 +109,21 @@ function App() {
               <Code className="project-icon" size={32} />
               <h2 style={{ fontSize: '2rem' }}>{selectedProject.title}</h2>
             </div>
-            <span className="project-category" style={{ display: 'inline-block', marginBottom: '1.5rem', background: 'rgba(255, 255, 255, 0.1)', padding: '0.25rem 0.75rem', borderRadius: '6px' }}>{selectedProject.category}</span>
-            <p className="project-desc" style={{ fontSize: '1.1rem', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-              {selectedProject.description}
-            </p>
+            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
+              <span className="project-category" style={{ background: 'rgba(255, 255, 255, 0.1)', padding: '0.25rem 0.75rem', borderRadius: '6px' }}>
+                {selectedProject.category}
+              </span>
+              {selectedProject.technologies && selectedProject.technologies.split(',').map((tech, idx) => (
+                <span key={idx} style={{ background: 'rgba(56, 189, 248, 0.15)', color: 'var(--accent-color)', padding: '0.25rem 0.75rem', borderRadius: '6px', fontSize: '0.9rem', fontWeight: '600' }}>
+                  {tech.trim()}
+                </span>
+              ))}
+            </div>
+            
+            <div className="project-desc" style={{ fontSize: '1.05rem', marginBottom: '2rem', color: 'var(--text-secondary)', lineHeight: '1.8' }}>
+              <p style={{ marginBottom: '0.5rem', color: 'var(--text-primary)', fontWeight: '600' }}>Project Details:</p>
+              <p>{selectedProject.long_description || selectedProject.description}</p>
+            </div>
             {selectedProject.link && (
               <a href={selectedProject.link} target="_blank" rel="noopener noreferrer" className="btn">
                 <ExternalLink size={18}/> View Project
