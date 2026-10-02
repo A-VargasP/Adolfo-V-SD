@@ -1,27 +1,53 @@
-# Portfolio Project - Adolfo Nicolas Vargas
+<div align="center">
+  <h1>Hi there, I'm Adolfo Nicolas Vargas 👋</h1>
+  <h3>Management Information Systems Student & Software Developer</h3>
+</div>
 
-This is a dynamic, premium portfolio built with React (Vite) for the frontend, and a Flask (Python) backend utilizing SQLite for project data management. It showcases my personal projects and acts as an interactive digital resume.
+<p align="center">
+  I am passionate about aligning technology with business strategy, transforming complex problems into elegant, reliable, and scalable web applications. Currently studying at Keiser University LAC.
+</p>
 
-## Tech Stack
-- **Frontend**: React, Vite, Lucide-React, custom CSS (Modern Glassmorphism UI)
-- **Backend**: Python, Flask, Flask-CORS, SQLite
+<div align="center">
+  <a href="mailto:vargaspnicolas5@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vargaspnicolas5%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/A-VargasP">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
 
-## Setup Instructions
+<br/>
 
-### Backend setup
-1. Open terminal in the root directory.
-2. Create a virtual environment: `python -m venv backend/venv`
-3. Activate the virtual environment and install dependencies:
-   `backend\venv\Scripts\pip install flask flask-cors`
-4. Initialize the database: `python backend/setup_db.py`
-5. Start the server: `python backend/app.py`
+## 🛠️ Tech Stack & Skills
 
-### Frontend setup
-1. Navigate to the `frontend` directory: `cd frontend`
-2. Install dependencies: `npm install`
-3. Start the Vite development server: `npm run dev`
+### **Frontend**
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Features
-- Dynamic API data fetching with Flask.
-- Responsive, animated UI with a dynamic interactive project modal.
-- Built-in category filtering.
+### **Backend & Database**
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
+<br/>
+
+## 🚀 Featured Projects
+
+### 🎓 [EduCent](https://github.com/A-VargasP/EduCent)
+An educational management system designed to streamline learning and administrative tasks, bringing clarity to complex institutional workflows.
+
+### 💰 FinTrack Pro
+A robust financial tracking application for personal and small business accounting. Features interactive dashboards to visualize cash flows intuitively.
+
+### 🩺 HealthSync App
+A mobile health companion app that synchronizes data from wearables to provide personalized health insights, built with a focus on cross-platform UX.
+
+---
+<p align="center">
+  <i>This repository also hosts the source code for my interactive portfolio web app (React + Flask).</i>
+</p>
